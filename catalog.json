@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T09:45:25Z",
+  "last_updated": "2026-11-08T10:06:50Z",
   "store_self_update": {
-    "version_code": 1,
-    "version_name": "1.0.0",
-    "apk_url": "https://github.com/realhackers/rh-store/releases/download/v1.0.0/rh-store.apk",
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "version_code": 3,
+    "version_name": "1.0.2",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v3/app-release.apk",
+    "sha256": "048e78995a8a745d65cfb42fd82fd3691551bddf56ca1a1ddaf3f87d6b735fd5",
     "force_update": false,
-    "changelog": "Initial release of RealHackers App Store."
+    "changelog": "Ships against the production API and refreshes the catalog faster."
   },
   "featured_banners": [
     {
@@ -390,7 +390,7 @@
         "android.permission.POST_NOTIFICATIONS",
         "com.realhackers.rhstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp?v=2",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp?v=3",
       "screenshots": [],
       "credits": [],
       "downloads": 0,
@@ -398,6 +398,19 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 3,
+          "version_name": "1.0.2",
+          "size_bytes": 60149420,
+          "sha256": "048e78995a8a745d65cfb42fd82fd3691551bddf56ca1a1ddaf3f87d6b735fd5",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v3/app-release.apk",
+          "changelog": "Ships against the production API and refreshes the catalog faster.",
+          "released_at": "2026-11-08T10:06:49Z",
+          "abi": "arm64-v8a",
+          "github_asset_id": 723557593
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 2,
           "version_name": "1.0.1",
           "size_bytes": 60149420,
@@ -407,9 +420,7 @@
           "released_at": "2026-11-08T09:44:45Z",
           "abi": "arm64-v8a",
           "github_asset_id": 723517598
-        }
-      },
-      "older_versions": [
+        },
         {
           "version_code": 1,
           "version_name": "1.0.0",
