@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T10:06:50Z",
+  "last_updated": "2026-11-08T10:22:44Z",
   "store_self_update": {
-    "version_code": 3,
-    "version_name": "1.0.2",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v3/app-release.apk",
-    "sha256": "048e78995a8a745d65cfb42fd82fd3691551bddf56ca1a1ddaf3f87d6b735fd5",
+    "version_code": 4,
+    "version_name": "1.0.3",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
+    "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
     "force_update": false,
-    "changelog": "Ships against the production API and refreshes the catalog faster."
+    "changelog": "Fetches the catalog straight from GitHub before falling back to the CDN."
   },
   "featured_banners": [
     {
@@ -390,7 +390,7 @@
         "android.permission.POST_NOTIFICATIONS",
         "com.realhackers.rhstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp?v=3",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp?v=4",
       "screenshots": [],
       "credits": [],
       "downloads": 0,
@@ -398,6 +398,19 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 4,
+          "version_name": "1.0.3",
+          "size_bytes": 60149908,
+          "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
+          "changelog": "Fetches the catalog straight from GitHub before falling back to the CDN.",
+          "released_at": "2026-11-08T10:22:43Z",
+          "abi": "arm64-v8a",
+          "github_asset_id": 723586310
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 3,
           "version_name": "1.0.2",
           "size_bytes": 60149420,
@@ -407,9 +420,7 @@
           "released_at": "2026-11-08T10:06:49Z",
           "abi": "arm64-v8a",
           "github_asset_id": 723557593
-        }
-      },
-      "older_versions": [
+        },
         {
           "version_code": 2,
           "version_name": "1.0.1",
