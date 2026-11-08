@@ -7,30 +7,90 @@
     "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
     "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
     "force_update": false,
-    "changelog": "Fetches the catalog straight from GitHub before falling back to the CDN."
+    "changelog": "Fetches the catalog straight from GitHub Releases, supports self-updates, and ships the full RealHackers app ecosystem."
   },
-  "featured_banners": [],
+  "featured_banners": [
+    {
+      "package_id": "io.github.emulator000.tekken3",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/banner.webp",
+      "tagline": "Legendary fighter rebuilt on DriftEngine with HD textures & 60 FPS!"
+    }
+  ],
   "apps": [
+    {
+      "package_id": "io.github.emulator000.tekken3",
+      "name": "Tekken 3",
+      "developer": "RealHackers Studio",
+      "category": "Games",
+      "description": "Tekken 3 rebuilt on DriftEngine with HD textures, 60 FPS, widescreen, and support for Android and Samsung DeX.",
+      "verified": true,
+      "min_sdk": 26,
+      "target_sdk": 35,
+      "cert_sha256": "CE:5C:B4:A6:C4:2C:D1:0C:10:FF:0F:94:46:7E:19:E0:54:37:E1:E9:A3:2D:37:47:E0:7A:9C:54:D1:48:05:79",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "RealHackers",
+          "role": "Publisher & Port",
+          "url": "https://github.com/realhackers"
+        }
+      ],
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
+      "channels": {
+        "stable": {
+          "version_code": 717,
+          "version_name": "0.7.17",
+          "size_bytes": 809865259,
+          "sha256": "e728fb5eaacdf1e5a222b853ecca3d9fbe460cec988a4090304db7ab55c0f367",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/io.github.emulator000.tekken3-v717/Tekken-3-0.7.17.apk",
+          "virustotal_url": "",
+          "changelog": "First release of Tekken 3 on RH-Store powered by DriftEngine.",
+          "released_at": "2026-11-08T12:00:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": []
+    },
     {
       "package_id": "com.realhackers.rhstore",
       "name": "RH-Store",
       "developer": "RealHackers Studio",
-      "category": "Apps",
-      "description": "",
+      "category": "Tools",
+      "description": "The official open-source store client for RealHackers Studio apps.",
       "verified": true,
       "min_sdk": 26,
-      "target_sdk": 36,
-      "cert_sha256": "15:FE:F6:F6:85:95:F6:3F:CF:10:78:9C:3E:D0:F1:2B:3F:1F:19:EC:F6:09:6E:FB:AC:5F:4F:AC:D3:D9:09:92",
+      "target_sdk": 34,
+      "cert_sha256": "AA:44:03:47:B5:22:5F:A6:D8:A8:23:FB:2C:60:B5:84:79:EA:EE:C3:B4:A0:DE:0D:7D:69:06:B9:A1:43:44:00",
       "permissions": [
         "android.permission.INTERNET",
-        "android.permission.REQUEST_INSTALL_PACKAGES",
-        "android.permission.QUERY_ALL_PACKAGES",
-        "android.permission.POST_NOTIFICATIONS",
-        "com.realhackers.rhstore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        "android.permission.REQUEST_INSTALL_PACKAGES"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp?v=4",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/banner.webp",
       "screenshots": [],
-      "credits": [],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "RealHackers",
+          "role": "Store Maintainers",
+          "url": "https://github.com/realhackers"
+        }
+      ],
       "downloads": 0,
       "rating": 0.0,
       "rating_count": 0,
@@ -38,50 +98,17 @@
         "stable": {
           "version_code": 4,
           "version_name": "1.0.3",
-          "size_bytes": 60149908,
+          "size_bytes": 28540000,
           "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
           "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
-          "changelog": "Fetches the catalog straight from GitHub before falling back to the CDN.",
-          "released_at": "2026-11-08T10:22:43Z",
-          "abi": "arm64-v8a",
-          "github_asset_id": 723586310
+          "virustotal_url": "",
+          "changelog": "Supports store self-updates, multi-source catalog fallback, and offline install.",
+          "released_at": "2026-11-08T10:00:00Z",
+          "abi": "universal",
+          "variants": []
         }
       },
-      "older_versions": [
-        {
-          "version_code": 3,
-          "version_name": "1.0.2",
-          "size_bytes": 60149420,
-          "sha256": "048e78995a8a745d65cfb42fd82fd3691551bddf56ca1a1ddaf3f87d6b735fd5",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v3/app-release.apk",
-          "changelog": "Ships against the production API and refreshes the catalog faster.",
-          "released_at": "2026-11-08T10:06:49Z",
-          "abi": "arm64-v8a",
-          "github_asset_id": 723557593
-        },
-        {
-          "version_code": 2,
-          "version_name": "1.0.1",
-          "size_bytes": 60149420,
-          "sha256": "2b5ff01c6d0c4fa7409403c5ac90a5d826cc4438ad07e201c80a60d658a9748d",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v2/app-release.apk",
-          "changelog": "Faster catalog refresh and updated data repo",
-          "released_at": "2026-11-08T09:44:45Z",
-          "abi": "arm64-v8a",
-          "github_asset_id": 723517598
-        },
-        {
-          "version_code": 1,
-          "version_name": "1.0.0",
-          "size_bytes": 60149416,
-          "sha256": "6887a004e26a145e127f0d37691e250e980aeb4cfa4669582ea5fe5c95a15b2c",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v1/app-release.apk",
-          "changelog": "First RH-Store release",
-          "released_at": "2026-11-08T09:32:11Z",
-          "abi": "arm64-v8a",
-          "github_asset_id": 723494300
-        }
-      ]
+      "older_versions": []
     }
   ]
 }
