@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T12:00:00Z",
+  "last_updated": "2026-11-08T14:15:00Z",
   "store_self_update": {
-    "version_code": 5,
-    "version_name": "1.0.4",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v5/app-release.apk",
-    "sha256": "e5fae2cd2c2dba2adea55324afc53064c0f3972e3be6b92a85c3243fa7eb83c8",
+    "version_code": 6,
+    "version_name": "1.0.5",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v6/app-release.apk",
+    "sha256": "8e396e0fd65ccb15fa1256767795e2669582d4f15f2c4a038f9cac301fa11397",
     "force_update": false,
-    "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine."
+    "changelog": "Full modern light UI redesign, black & white with red combo, smooth transitions, download counters, reviews, and Samsung DeX desktop mode optimization."
   },
   "featured_banners": [
     {
@@ -96,19 +96,28 @@
       "rating_count": 0,
       "channels": {
         "stable": {
-          "version_code": 5,
-          "version_name": "1.0.4",
-          "size_bytes": 60463058,
-          "sha256": "e5fae2cd2c2dba2adea55324afc53064c0f3972e3be6b92a85c3243fa7eb83c8",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v5/app-release.apk",
+          "version_code": 6,
+          "version_name": "1.0.5",
+          "size_bytes": 60734556,
+          "sha256": "8e396e0fd65ccb15fa1256767795e2669582d4f15f2c4a038f9cac301fa11397",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v6/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine.",
-          "released_at": "2026-11-08T12:45:00Z",
+          "changelog": "Full modern light UI redesign, black & white with red combo, smooth transitions, download counters, reviews, and Samsung DeX desktop mode optimization.",
+          "released_at": "2026-11-08T14:15:00Z",
           "abi": "universal",
           "variants": []
         }
       },
       "older_versions": [
+        {
+          "version_code": 5,
+          "version_name": "1.0.4",
+          "size_bytes": 60463058,
+          "sha256": "e5fae2cd2c2dba2adea55324afc53064c0f3972e3be6b92a85c3243fa7eb83c8",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v5/app-release.apk",
+          "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine.",
+          "released_at": "2026-11-08T12:45:00Z"
+        },
         {
           "version_code": 4,
           "version_name": "1.0.3",
