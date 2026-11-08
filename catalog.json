@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T09:44:46Z",
+  "last_updated": "2026-11-08T09:45:10Z",
   "store_self_update": {
     "version_code": 1,
     "version_name": "1.0.0",
@@ -398,19 +398,6 @@
       "rating_count": 0,
       "channels": {
         "stable": {
-          "version_code": 2,
-          "version_name": "1.0.1",
-          "size_bytes": 60149420,
-          "sha256": "2b5ff01c6d0c4fa7409403c5ac90a5d826cc4438ad07e201c80a60d658a9748d",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v2/app-release.apk",
-          "changelog": "Faster catalog refresh and updated data repo",
-          "released_at": "2026-11-08T09:44:45Z",
-          "abi": "arm64-v8a",
-          "github_asset_id": 723517598
-        }
-      },
-      "older_versions": [
-        {
           "version_code": 1,
           "version_name": "1.0.0",
           "size_bytes": 60149416,
@@ -420,6 +407,19 @@
           "released_at": "2026-11-08T09:32:11Z",
           "abi": "arm64-v8a",
           "github_asset_id": 723494300
+        }
+      },
+      "older_versions": [
+        {
+          "version_code": 2,
+          "version_name": "1.0.1",
+          "size_bytes": 60149420,
+          "sha256": "2b5ff01c6d0c4fa7409403c5ac90a5d826cc4438ad07e201c80a60d658a9748d",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v2/app-release.apk",
+          "changelog": "Faster catalog refresh and updated data repo",
+          "released_at": "2026-11-08T09:44:45Z",
+          "abi": "arm64-v8a",
+          "github_asset_id": 723517598
         }
       ]
     }
