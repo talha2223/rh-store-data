@@ -5,9 +5,9 @@
     "version_code": 4,
     "version_name": "1.0.3",
     "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
-    "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
+    "sha256": "64b4b65b543b1c212e41d07ea5156d54949c1e2110346eb2c257bb0bc64c993a",
     "force_update": false,
-    "changelog": "Fetches the catalog straight from GitHub Releases, supports self-updates, and ships the full RealHackers app ecosystem."
+    "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine."
   },
   "featured_banners": [
     {
@@ -98,11 +98,11 @@
         "stable": {
           "version_code": 4,
           "version_name": "1.0.3",
-          "size_bytes": 28540000,
-          "sha256": "aa440347b5225fa6d8a823fb2c60b58479eaeec3b4a0de0d7d6906b9a1434400",
+          "size_bytes": 60463102,
+          "sha256": "64b4b65b543b1c212e41d07ea5156d54949c1e2110346eb2c257bb0bc64c993a",
           "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Supports store self-updates, multi-source catalog fallback, and offline install.",
+          "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine.",
           "released_at": "2026-11-08T10:00:00Z",
           "abi": "universal",
           "variants": []
