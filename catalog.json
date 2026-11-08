@@ -2,10 +2,10 @@
   "schema_version": 2,
   "last_updated": "2026-11-08T12:00:00Z",
   "store_self_update": {
-    "version_code": 4,
-    "version_name": "1.0.3",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
-    "sha256": "64b4b65b543b1c212e41d07ea5156d54949c1e2110346eb2c257bb0bc64c993a",
+    "version_code": 5,
+    "version_name": "1.0.4",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v5/app-release.apk",
+    "sha256": "e5fae2cd2c2dba2adea55324afc53064c0f3972e3be6b92a85c3243fa7eb83c8",
     "force_update": false,
     "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine."
   },
@@ -96,19 +96,29 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 5,
+          "version_name": "1.0.4",
+          "size_bytes": 60463058,
+          "sha256": "e5fae2cd2c2dba2adea55324afc53064c0f3972e3be6b92a85c3243fa7eb83c8",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v5/app-release.apk",
+          "virustotal_url": "",
+          "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine.",
+          "released_at": "2026-11-08T12:45:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 4,
           "version_name": "1.0.3",
           "size_bytes": 60463102,
           "sha256": "64b4b65b543b1c212e41d07ea5156d54949c1e2110346eb2c257bb0bc64c993a",
           "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v4/app-release.apk",
-          "virustotal_url": "",
-          "changelog": "Fresh branding with inverted dark cyber RH monogram logo, self-updater, and Tekken 3 powered by DriftEngine.",
-          "released_at": "2026-11-08T10:00:00Z",
-          "abi": "universal",
-          "variants": []
+          "changelog": "Initial stable release with store self-updates and Tekken 3.",
+          "released_at": "2026-11-08T10:00:00Z"
         }
-      },
-      "older_versions": []
+      ]
     }
   ]
 }
