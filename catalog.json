@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-11T17:00:00Z",
+  "last_updated": "2026-11-12T09:30:00Z",
   "store_self_update": {
-    "version_code": 6,
-    "version_name": "1.0.5",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v6/app-release.apk",
-    "sha256": "8e396e0fd65ccb15fa1256767795e2669582d4f15f2c4a038f9cac301fa11397",
+    "version_code": 7,
+    "version_name": "1.0.6",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v7/app-release.apk",
+    "sha256": "d39ca260d38c2c305d57efbfa24f84baa98a760ee053214d743362d3c6ff10c2",
     "force_update": false,
-    "changelog": "Full modern light UI redesign, black & white with red combo, smooth transitions, download counters, reviews, and Samsung DeX desktop mode optimization."
+    "changelog": "Black, white and red redesign, real artwork and screenshots, demo-free catalog, and a more reliable in-app updater."
   },
   "featured_banners": [
     {
@@ -82,7 +82,7 @@
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 34,
-      "cert_sha256": "AA:44:03:47:B5:22:5F:A6:D8:A8:23:FB:2C:60:B5:84:79:EA:EE:C3:B4:A0:DE:0D:7D:69:06:B9:A1:43:44:00",
+      "cert_sha256": "15:FE:F6:F6:85:95:F6:3F:CF:10:78:9C:3E:D0:F1:2B:3F:1F:19:EC:F6:09:6E:FB:AC:5F:4F:AC:D3:D9:09:92",
       "permissions": [
         "android.permission.INTERNET",
         "android.permission.REQUEST_INSTALL_PACKAGES"
@@ -110,19 +110,28 @@
       "rating_count": 0,
       "channels": {
         "stable": {
-          "version_code": 6,
-          "version_name": "1.0.5",
-          "size_bytes": 60734556,
-          "sha256": "8e396e0fd65ccb15fa1256767795e2669582d4f15f2c4a038f9cac301fa11397",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v6/app-release.apk",
+          "version_code": 7,
+          "version_name": "1.0.6",
+          "size_bytes": 62550531,
+          "sha256": "d39ca260d38c2c305d57efbfa24f84baa98a760ee053214d743362d3c6ff10c2",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v7/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Full modern light UI redesign, black & white with red combo, smooth transitions, download counters, reviews, and Samsung DeX desktop mode optimization.",
-          "released_at": "2026-11-08T14:15:00Z",
+          "changelog": "Black, white and red redesign, real artwork and screenshots, demo-free catalog, and a more reliable in-app updater.",
+          "released_at": "2026-11-12T09:30:00Z",
           "abi": "universal",
           "variants": []
         }
       },
       "older_versions": [
+        {
+          "version_code": 6,
+          "version_name": "1.0.5",
+          "size_bytes": 60734556,
+          "sha256": "8e396e0fd65ccb15fa1256767795e2669582d4f15f2c4a038f9cac301fa11397",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v6/app-release.apk",
+          "changelog": "Full modern light UI redesign, black & white with red combo, smooth transitions, download counters, reviews, and Samsung DeX desktop mode optimization.",
+          "released_at": "2026-11-08T14:15:00Z"
+        },
         {
           "version_code": 5,
           "version_name": "1.0.4",
