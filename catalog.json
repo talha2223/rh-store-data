@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-12T09:30:00Z",
+  "last_updated": "2026-11-13T12:29:45Z",
   "store_self_update": {
-    "version_code": 7,
-    "version_name": "1.0.6",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v7/app-release.apk",
-    "sha256": "d39ca260d38c2c305d57efbfa24f84baa98a760ee053214d743362d3c6ff10c2",
+    "version_code": 8,
+    "version_name": "1.0.7",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v8/app-release.apk",
+    "sha256": "11aa833b0d4ba7cb46f2c19c0d61e4c3231cc2389e6a58195634cb22248a9fcc",
     "force_update": false,
-    "changelog": "Black, white and red redesign, real artwork and screenshots, demo-free catalog, and a more reliable in-app updater."
+    "changelog": "Saved APK library: downloads are kept as real files and survive backgrounding or restart. Reliable installs with exact failure reasons, preflight storage/signature checks, APK export and share, install-from-file, and Wi-Fi-only downloads."
   },
   "featured_banners": [
     {
@@ -78,10 +78,10 @@
       "name": "RH-Store",
       "developer": "RealHackers Studio",
       "category": "Tools",
-      "description": "The official RealHackers store client \u2014 a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
+      "description": "The official RealHackers store client — a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
       "verified": true,
       "min_sdk": 26,
-      "target_sdk": 34,
+      "target_sdk": 36,
       "cert_sha256": "15:FE:F6:F6:85:95:F6:3F:CF:10:78:9C:3E:D0:F1:2B:3F:1F:19:EC:F6:09:6E:FB:AC:5F:4F:AC:D3:D9:09:92",
       "permissions": [
         "android.permission.INTERNET",
@@ -110,19 +110,28 @@
       "rating_count": 0,
       "channels": {
         "stable": {
-          "version_code": 7,
-          "version_name": "1.0.6",
-          "size_bytes": 62550531,
-          "sha256": "d39ca260d38c2c305d57efbfa24f84baa98a760ee053214d743362d3c6ff10c2",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v7/app-release.apk",
+          "version_code": 8,
+          "version_name": "1.0.7",
+          "size_bytes": 62912151,
+          "sha256": "11aa833b0d4ba7cb46f2c19c0d61e4c3231cc2389e6a58195634cb22248a9fcc",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v8/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Black, white and red redesign, real artwork and screenshots, demo-free catalog, and a more reliable in-app updater.",
-          "released_at": "2026-11-12T09:30:00Z",
+          "changelog": "Saved APK library: downloads are kept as real files and survive backgrounding or restart. Reliable installs with exact failure reasons, preflight storage/signature checks, APK export and share, install-from-file, and Wi-Fi-only downloads.",
+          "released_at": "2026-11-13T12:29:45Z",
           "abi": "universal",
           "variants": []
         }
       },
       "older_versions": [
+        {
+          "version_code": 7,
+          "version_name": "1.0.6",
+          "size_bytes": 62550531,
+          "sha256": "d39ca260d38c2c305d57efbfa24f84baa98a760ee053214d743362d3c6ff10c2",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v7/app-release.apk",
+          "changelog": "Black, white and red redesign, real artwork and screenshots, demo-free catalog, and a more reliable in-app updater.",
+          "released_at": "2026-11-12T09:30:00Z"
+        },
         {
           "version_code": 6,
           "version_name": "1.0.5",
