@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T13:33:57Z",
+  "last_updated": "2026-11-16T13:45:01Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -32,7 +32,7 @@
     },
     {
       "package_id": "com.auramemories.app",
-      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp",
       "tagline": "AuraMemories \u2014 on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
     }
   ],
@@ -503,7 +503,12 @@
         "android.permission.READ_PHONE_STATE"
       ],
       "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
-      "screenshots": [],
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s4.webp"
+      ],
       "credits": [
         {
           "name": "Talha Niaz",
@@ -539,7 +544,8 @@
           "abi": "arm64-v8a",
           "github_asset_id": 754104621
         }
-      ]
+      ],
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp"
     }
   ]
 }
