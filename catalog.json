@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T09:16:29Z",
+  "last_updated": "2026-11-16T13:33:57Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -28,7 +28,7 @@
     {
       "package_id": "com.auramemories.app",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
-      "tagline": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
+      "tagline": "AuraMemories \u2014 on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
     }
   ],
   "apps": [
@@ -64,9 +64,9 @@
           "url": "https://github.com/realhackers"
         }
       ],
-      "downloads": 15420,
-      "rating": 4.9,
-      "rating_count": 1280,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 717,
@@ -88,7 +88,7 @@
       "name": "RH-Store",
       "developer": "RealHackers Studio",
       "category": "Tools",
-      "description": "The official RealHackers store client — a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
+      "description": "The official RealHackers store client \u2014 a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -115,9 +115,9 @@
           "url": "https://github.com/realhackers"
         }
       ],
-      "downloads": 8650,
-      "rating": 5,
-      "rating_count": 940,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 10,
@@ -225,9 +225,9 @@
           "url": "https://github.com/termux"
         }
       ],
-      "downloads": 48200,
-      "rating": 4.9,
-      "rating_count": 3840,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 118,
@@ -294,9 +294,9 @@
           "url": "https://github.com/RikkaApps"
         }
       ],
-      "downloads": 34100,
-      "rating": 4.9,
-      "rating_count": 2450,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 1086,
@@ -344,9 +344,9 @@
           "url": "https://github.com/emanuele-f"
         }
       ],
-      "downloads": 19800,
-      "rating": 4.8,
-      "rating_count": 1410,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 202,
@@ -394,9 +394,9 @@
           "url": "https://github.com/celzero"
         }
       ],
-      "downloads": 26500,
-      "rating": 4.8,
-      "rating_count": 1920,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 70,
@@ -443,9 +443,9 @@
           "url": "https://github.com/zhanghai"
         }
       ],
-      "downloads": 21400,
-      "rating": 4.9,
-      "rating_count": 1670,
+      "downloads": 0,
+      "rating": 0.0,
+      "rating_count": 0,
       "channels": {
         "stable": {
           "version_code": 75,
@@ -467,7 +467,7 @@
       "name": "AuraMemories",
       "developer": "RealHackers Studio",
       "category": "Photography",
-      "description": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a built-in pro photo/video studio.",
+      "description": "AuraMemories \u2014 on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a built-in pro photo/video studio.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -507,7 +507,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0,
+      "rating": 0.0,
       "rating_count": 0,
       "channels": {
         "stable": {
