@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T12:29:45Z",
+  "last_updated": "2026-11-16T04:30:28Z",
   "store_self_update": {
-    "version_code": 8,
-    "version_name": "1.0.7",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v8/app-release.apk",
-    "sha256": "11aa833b0d4ba7cb46f2c19c0d61e4c3231cc2389e6a58195634cb22248a9fcc",
+    "version_code": 9,
+    "version_name": "1.0.8",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v9/app-release.apk",
+    "sha256": "f8ec0b2915d411d0821d576351c04070b26b1912948af4a9af421091b3bcde08",
     "force_update": false,
-    "changelog": "Saved APK library: downloads are kept as real files and survive backgrounding or restart. Reliable installs with exact failure reasons, preflight storage/signature checks, APK export and share, install-from-file, and Wi-Fi-only downloads."
+    "changelog": "Auto-update system: background checks every 6 hours with native notifications, optional pre-download of up to 3 updates, and install/download alerts. New installed-apps manager with size, version, update badge, app info and uninstall. New download activity centre for active, ready and failed transfers with retry and cancel."
   },
   "featured_banners": [
     {
@@ -78,7 +78,7 @@
       "name": "RH-Store",
       "developer": "RealHackers Studio",
       "category": "Tools",
-      "description": "The official RealHackers store client — a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
+      "description": "The official RealHackers store client \u2014 a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -110,19 +110,28 @@
       "rating_count": 0,
       "channels": {
         "stable": {
-          "version_code": 8,
-          "version_name": "1.0.7",
-          "size_bytes": 62912151,
-          "sha256": "11aa833b0d4ba7cb46f2c19c0d61e4c3231cc2389e6a58195634cb22248a9fcc",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v8/app-release.apk",
+          "version_code": 9,
+          "version_name": "1.0.8",
+          "size_bytes": 63637340,
+          "sha256": "f8ec0b2915d411d0821d576351c04070b26b1912948af4a9af421091b3bcde08",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v9/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Saved APK library: downloads are kept as real files and survive backgrounding or restart. Reliable installs with exact failure reasons, preflight storage/signature checks, APK export and share, install-from-file, and Wi-Fi-only downloads.",
-          "released_at": "2026-11-13T12:29:45Z",
+          "changelog": "Auto-update system: background checks every 6 hours with native notifications, optional pre-download of up to 3 updates, and install/download alerts. New installed-apps manager with size, version, update badge, app info and uninstall. New download activity centre for active, ready and failed transfers with retry and cancel.",
+          "released_at": "2026-11-16T04:30:28Z",
           "abi": "universal",
           "variants": []
         }
       },
       "older_versions": [
+        {
+          "version_code": 8,
+          "version_name": "1.0.7",
+          "size_bytes": 62912151,
+          "sha256": "11aa833b0d4ba7cb46f2c19c0d61e4c3231cc2389e6a58195634cb22248a9fcc",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v8/app-release.apk",
+          "changelog": "Saved APK library: downloads are kept as real files and survive backgrounding or restart. Reliable installs with exact failure reasons, preflight storage/signature checks, APK export and share, install-from-file, and Wi-Fi-only downloads.",
+          "released_at": "2026-11-13T12:29:45Z"
+        },
         {
           "version_code": 7,
           "version_name": "1.0.6",
