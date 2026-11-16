@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T08:46:46Z",
+  "last_updated": "2026-11-16T09:16:29Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -27,7 +27,7 @@
     },
     {
       "package_id": "com.auramemories.app",
-      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=1",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
       "tagline": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
     }
   ],
@@ -497,7 +497,7 @@
         "com.auramemories.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
         "android.permission.READ_PHONE_STATE"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=1",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
       "screenshots": [],
       "credits": [
         {
@@ -511,6 +511,19 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 2,
+          "version_name": "1.0.1",
+          "size_bytes": 279505087,
+          "sha256": "a87b7c307c591631a7449bb9fbccde437af557564cf98cbb3d72f416c7a69299",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.auramemories.app-v2/app-release.apk",
+          "changelog": "Initial production release of AuraMemories on RH Store: on-device AI clustering, Google Drive v3 sync, Pro Photo/Video Studio, Ken Burns stories, and Biometric Encrypted Vault.",
+          "released_at": "2026-11-16T09:16:26Z",
+          "abi": "universal",
+          "github_asset_id": 754190993
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 1,
           "version_name": "1.0.0",
           "size_bytes": 279505083,
@@ -521,8 +534,7 @@
           "abi": "arm64-v8a",
           "github_asset_id": 754104621
         }
-      },
-      "older_versions": []
+      ]
     }
   ]
 }
