@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T04:30:28Z",
+  "last_updated": "2026-11-16T07:14:00Z",
   "store_self_update": {
-    "version_code": 9,
-    "version_name": "1.0.8",
-    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v9/app-release.apk",
-    "sha256": "f8ec0b2915d411d0821d576351c04070b26b1912948af4a9af421091b3bcde08",
+    "version_code": 10,
+    "version_name": "1.0.9",
+    "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v10/app-release.apk",
+    "sha256": "cbcbfd3f10d17ed613d95fe06f8e2073a696ce00030756412bf3961acfc92931",
     "force_update": false,
-    "changelog": "Auto-update system: background checks every 6 hours with native notifications, optional pre-download of up to 3 updates, and install/download alerts. New installed-apps manager with size, version, update badge, app info and uninstall. New download activity centre for active, ready and failed transfers with retry and cancel."
+    "changelog": "DeX desktop keyboard shortcuts (Ctrl+F search, Ctrl+R refresh, Ctrl+1..5 tabs, Ctrl+J activity, Esc clear), download activity cleanup, and bug fixes for theme defaults, live stats, and crash risks."
   },
   "featured_banners": [
     {
@@ -110,19 +110,28 @@
       "rating_count": 940,
       "channels": {
         "stable": {
-          "version_code": 9,
-          "version_name": "1.0.8",
-          "size_bytes": 63637340,
-          "sha256": "f8ec0b2915d411d0821d576351c04070b26b1912948af4a9af421091b3bcde08",
-          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v9/app-release.apk",
+          "version_code": 10,
+          "version_name": "1.0.9",
+          "size_bytes": 63637660,
+          "sha256": "cbcbfd3f10d17ed613d95fe06f8e2073a696ce00030756412bf3961acfc92931",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v10/app-release.apk",
           "virustotal_url": "",
-          "changelog": "Auto-update system: background checks every 6 hours with native notifications, optional pre-download of up to 3 updates, and install/download alerts. New installed-apps manager with size, version, update badge, app info and uninstall. New download activity centre for active, ready and failed transfers with retry and cancel.",
-          "released_at": "2026-11-16T04:30:28Z",
+          "changelog": "DeX desktop keyboard shortcuts (Ctrl+F search, Ctrl+R refresh, Ctrl+1..5 tabs, Ctrl+J activity, Esc clear), download activity cleanup, and bug fixes for theme defaults, live stats, and crash risks.",
+          "released_at": "2026-11-16T07:14:00Z",
           "abi": "universal",
           "variants": []
         }
       },
       "older_versions": [
+        {
+          "version_code": 9,
+          "version_name": "1.0.8",
+          "size_bytes": 63637340,
+          "sha256": "f8ec0b2915d411d0821d576351c04070b26b1912948af4a9af421091b3bcde08",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.realhackers.rhstore-v9/app-release.apk",
+          "changelog": "Auto-update system: background checks every 6 hours with native notifications, optional pre-download of up to 3 updates, and install/download alerts. New installed-apps manager with size, version, update badge, app info and uninstall. New download activity centre for active, ready and failed transfers with retry and cancel.",
+          "released_at": "2026-11-16T04:30:28Z"
+        },
         {
           "version_code": 8,
           "version_name": "1.0.7",
