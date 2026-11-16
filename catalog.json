@@ -11,6 +11,11 @@
   },
   "featured_banners": [
     {
+      "package_id": "io.github.emulator000.tekken3",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/banner.webp",
+      "tagline": "Legendary fighter rebuilt on DriftEngine with HD textures & 60 FPS!"
+    },
+    {
       "package_id": "com.termux",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/banner.webp",
       "tagline": "Full Linux CLI environment, compilers & package manager on Android."
