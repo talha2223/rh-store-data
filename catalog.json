@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T08:22:26Z",
+  "last_updated": "2026-11-16T08:46:46Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -10,11 +10,6 @@
     "changelog": "DeX desktop keyboard shortcuts (Ctrl+F search, Ctrl+R refresh, Ctrl+1..5 tabs, Ctrl+J activity, Esc clear), download activity cleanup, and bug fixes for theme defaults, live stats, and crash risks."
   },
   "featured_banners": [
-    {
-      "package_id": "io.github.emulator000.tekken3",
-      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/banner.webp",
-      "tagline": "Legendary fighter rebuilt on DriftEngine with HD textures & 60 FPS!"
-    },
     {
       "package_id": "com.termux",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/banner.webp",
@@ -29,6 +24,11 @@
       "package_id": "com.realhackers.rhstore",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.realhackers.rhstore/banner.webp?v=2",
       "tagline": "The official store in black, white and red."
+    },
+    {
+      "package_id": "com.auramemories.app",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=1",
+      "tagline": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
     }
   ],
   "apps": [
@@ -88,7 +88,7 @@
       "name": "RH-Store",
       "developer": "RealHackers Studio",
       "category": "Tools",
-      "description": "The official RealHackers store client \u2014 a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
+      "description": "The official RealHackers store client — a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -116,7 +116,7 @@
         }
       ],
       "downloads": 8650,
-      "rating": 5.0,
+      "rating": 5,
       "rating_count": 940,
       "channels": {
         "stable": {
@@ -458,6 +458,68 @@
           "released_at": "2024-06-18T00:00:00Z",
           "abi": "universal",
           "variants": []
+        }
+      },
+      "older_versions": []
+    },
+    {
+      "package_id": "com.auramemories.app",
+      "name": "AuraMemories",
+      "developer": "RealHackers Studio",
+      "category": "Photography",
+      "description": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a built-in pro photo/video studio.",
+      "verified": true,
+      "min_sdk": 26,
+      "target_sdk": 36,
+      "cert_sha256": "15:FE:F6:F6:85:95:F6:3F:CF:10:78:9C:3E:D0:F1:2B:3F:1F:19:EC:F6:09:6E:FB:AC:5F:4F:AC:D3:D9:09:92",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.WAKE_LOCK",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.FOREGROUND_SERVICE_SHORT_SERVICE",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.auramemories.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android.permission.READ_PHONE_STATE"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=1",
+      "screenshots": [],
+      "credits": [
+        {
+          "name": "Talha Niaz",
+          "role": "Lead Developer",
+          "url": "https://github.com/talha2223"
+        }
+      ],
+      "downloads": 0,
+      "rating": 0,
+      "rating_count": 0,
+      "channels": {
+        "stable": {
+          "version_code": 1,
+          "version_name": "1.0.0",
+          "size_bytes": 279505083,
+          "sha256": "fc3a9bdeb97f07f299c104c8615d12b04173dd9046d153bbaec0f89a89284907",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.auramemories.app-v1/app-release.apk",
+          "changelog": "Initial production release of AuraMemories on RH Store: on-device AI clustering, Google Drive v3 sync, Pro Photo/Video Studio, Ken Burns stories, and Biometric Encrypted Vault.",
+          "released_at": "2026-11-16T08:46:44Z",
+          "abi": "arm64-v8a",
+          "github_asset_id": 754104621
         }
       },
       "older_versions": []
