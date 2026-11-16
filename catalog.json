@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T13:45:01Z",
+  "last_updated": "2026-11-16T14:32:10Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -33,7 +33,7 @@
     {
       "package_id": "com.auramemories.app",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp",
-      "tagline": "AuraMemories \u2014 on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
+      "tagline": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a b"
     }
   ],
   "apps": [
@@ -70,7 +70,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -93,7 +93,7 @@
       "name": "RH-Store",
       "developer": "RealHackers Studio",
       "category": "Tools",
-      "description": "The official RealHackers store client \u2014 a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
+      "description": "The official RealHackers store client — a fast, verified, ad-free catalog of apps and games, with secure self-updates and offline APK sharing.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -121,7 +121,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -231,7 +231,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -300,7 +300,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -350,7 +350,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -400,7 +400,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -449,7 +449,7 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
@@ -472,7 +472,7 @@
       "name": "AuraMemories",
       "developer": "RealHackers Studio",
       "category": "Photography",
-      "description": "AuraMemories \u2014 on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a built-in pro photo/video studio.",
+      "description": "AuraMemories — on-device AI memories, Google Drive hybrid backup, biometric encrypted vault, and a built-in pro photo/video studio.",
       "verified": true,
       "min_sdk": 26,
       "target_sdk": 36,
@@ -502,7 +502,8 @@
         "com.auramemories.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
         "android.permission.READ_PHONE_STATE"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=2",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=3",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp",
       "screenshots": [
         "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s1.webp",
         "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s2.webp",
@@ -517,10 +518,23 @@
         }
       ],
       "downloads": 0,
-      "rating": 0.0,
+      "rating": 0,
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 3,
+          "version_name": "1.1.0",
+          "size_bytes": 311451238,
+          "sha256": "e89bb63f60eac1e91e1dd246f81c902f4821752820fdd3216e74fd576174b03b",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.auramemories.app-v3/app-release.apk",
+          "changelog": "v1.1.0 update: Added On-Device OCR text extraction & full-text search, fixed Google Sign-In with Credential Manager proguard & scopes, added Face Separation with 1-tap split/detach, and added Categories & Albums explore hub (Media types, AI smart categories, custom user tags).",
+          "released_at": "2026-11-16T14:32:08Z",
+          "abi": "universal",
+          "github_asset_id": 755162710
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 2,
           "version_name": "1.0.1",
           "size_bytes": 279505087,
@@ -530,9 +544,7 @@
           "released_at": "2026-11-16T09:16:26Z",
           "abi": "universal",
           "github_asset_id": 754190993
-        }
-      },
-      "older_versions": [
+        },
         {
           "version_code": 1,
           "version_name": "1.0.0",
@@ -544,8 +556,7 @@
           "abi": "arm64-v8a",
           "github_asset_id": 754104621
         }
-      ],
-      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp"
+      ]
     }
   ]
 }
