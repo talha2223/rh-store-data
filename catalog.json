@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T07:14:00Z",
+  "last_updated": "2026-11-16T08:22:26Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -14,6 +14,16 @@
       "package_id": "io.github.emulator000.tekken3",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/io.github.emulator000.tekken3/banner.webp",
       "tagline": "Legendary fighter rebuilt on DriftEngine with HD textures & 60 FPS!"
+    },
+    {
+      "package_id": "com.termux",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/banner.webp",
+      "tagline": "Full Linux CLI environment, compilers & package manager on Android."
+    },
+    {
+      "package_id": "moe.shizuku.privileged.api",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/banner.webp",
+      "tagline": "Elevate system Android APIs via wireless ADB without root."
     },
     {
       "package_id": "com.realhackers.rhstore",
@@ -178,6 +188,279 @@
           "released_at": "2026-11-08T10:00:00Z"
         }
       ]
+    },
+    {
+      "package_id": "com.termux",
+      "name": "Termux",
+      "developer": "Fredrik Fornwall & Termux Team",
+      "category": "Hacker Tools",
+      "description": "Full-featured Linux environment and terminal emulator for Android. Includes APT package management (pkg), bash, zsh, Python, Node.js, Rust, Go, Git, OpenSSH, and essential security auditing packages. Fully responsive on Samsung DeX with external hardware keyboard shortcuts.",
+      "verified": true,
+      "min_sdk": 24,
+      "target_sdk": 28,
+      "cert_sha256": "B6:FC:F6:17:4D:0E:CF:44:64:7B:AE:A8:FD:B6:F2:08:24:65:42:0B:E5:A9:39:7D:2E:EE:41:96:D3:52:1D:64",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.termux/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "Fredrik Fornwall",
+          "role": "Original Author",
+          "url": "https://github.com/fornwall"
+        },
+        {
+          "name": "Termux Community",
+          "role": "Maintainers",
+          "url": "https://github.com/termux"
+        }
+      ],
+      "downloads": 48200,
+      "rating": 4.9,
+      "rating_count": 3840,
+      "channels": {
+        "stable": {
+          "version_code": 118,
+          "version_name": "0.118.3",
+          "size_bytes": 117775723,
+          "sha256": "7600078440c3c34ef050bc009b00fc3215cb87ec4a449e01a696f74cf4249db2",
+          "apk_url": "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_universal.apk",
+          "virustotal_url": "",
+          "changelog": "Updated terminal emulator core, bootstrap package fixes, Android 14+ compatibility improvements, and hardware keyboard shortcut enhancements.",
+          "released_at": "2024-10-24T00:00:00Z",
+          "abi": "universal",
+          "variants": [
+            {
+              "abi": "arm64-v8a",
+              "apk_url": "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_arm64-v8a.apk",
+              "sha256": "72fdb596045116bf5ba1b5bdf5b26fddb9acc0bd074ad9f2da9eb0ae85e83a4e",
+              "size_bytes": 35106607
+            },
+            {
+              "abi": "armeabi-v7a",
+              "apk_url": "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_armeabi-v7a.apk",
+              "sha256": "89416397b70f9ff67a0044e8abe6ef82487cd48fcf543e2d23e02688cc541cf0",
+              "size_bytes": 32250911
+            },
+            {
+              "abi": "x86_64",
+              "apk_url": "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_x86_64.apk",
+              "sha256": "3550e61f4d9eb49b712fd1bd9519dc37085a4d8eb597c57a340f0a64859b7144",
+              "size_bytes": 35189933
+            }
+          ]
+        }
+      },
+      "older_versions": []
+    },
+    {
+      "package_id": "moe.shizuku.privileged.api",
+      "name": "Shizuku",
+      "developer": "Rikka / Devs of Shizuku",
+      "category": "Hacker Tools",
+      "description": "Grant elevated system-level Android APIs to authorized apps directly via wireless ADB or root. Run privileged operations, manage app permissions, and automate background installs without permanently modifying system partitions.",
+      "verified": true,
+      "min_sdk": 26,
+      "target_sdk": 34,
+      "cert_sha256": "97:D2:C0:35:88:51:79:3E:96:AC:E7:50:BE:F4:74:6C:5F:E3:6C:0D:36:C1:2A:60:58:62:38:61:BF:84:83:8B",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.POST_NOTIFICATIONS"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/moe.shizuku.privileged.api/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "Rikka",
+          "role": "Creator & Lead Developer",
+          "url": "https://github.com/RikkaApps"
+        }
+      ],
+      "downloads": 34100,
+      "rating": 4.9,
+      "rating_count": 2450,
+      "channels": {
+        "stable": {
+          "version_code": 1086,
+          "version_name": "13.6.0",
+          "size_bytes": 2571773,
+          "sha256": "6e273ab0e991c4e79bc8b1bbb9b9dd739ccac1a8712a541a214078886b7b790f",
+          "apk_url": "https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk",
+          "virustotal_url": "",
+          "changelog": "Android 15 compatibility, wireless debugging pairing stability fixes, and improved server management.",
+          "released_at": "2024-09-10T00:00:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": []
+    },
+    {
+      "package_id": "com.emanuelef.remote_capture",
+      "name": "PCAPdroid",
+      "developer": "Emanuele Faranda",
+      "category": "Hacker Tools",
+      "description": "Privacy-focused network traffic sniffer and packet capture tool. Captures device traffic to PCAP files, inspects HTTP/HTTPS payload connections, detects suspicious malware telemetry, and dumps raw packets without root.",
+      "verified": true,
+      "min_sdk": 21,
+      "target_sdk": 34,
+      "cert_sha256": "E8:57:3E:72:42:0A:74:96:B8:35:28:B1:BD:38:15:37:A6:CF:9B:C1:C8:8E:22:96:FE:09:A6:6C:73:C0:B2:BD",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.emanuelef.remote_capture/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "Emanuele Faranda",
+          "role": "Creator & Maintainer",
+          "url": "https://github.com/emanuele-f"
+        }
+      ],
+      "downloads": 19800,
+      "rating": 4.8,
+      "rating_count": 1410,
+      "channels": {
+        "stable": {
+          "version_code": 202,
+          "version_name": "2.0.2",
+          "size_bytes": 17571744,
+          "sha256": "eb437cbe10e2c7e332c06d7401d8f9036c3722747f541e6e231d1bd9ab6dbffc",
+          "apk_url": "https://github.com/emanuele-f/PCAPdroid/releases/download/v2.0.2/PCAPdroid_v2.0.2.apk",
+          "virustotal_url": "",
+          "changelog": "Packet capture improvements, TLS decryption helper updates, and Wireshark remote stream stability.",
+          "released_at": "2024-08-20T00:00:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": []
+    },
+    {
+      "package_id": "com.celzero.bravedns",
+      "name": "Rethink DNS",
+      "developer": "Celzero",
+      "category": "Hacker Tools",
+      "description": "Anti-censorship, privacy-first DNS client and per-app firewall for Android. Supports DNS-over-HTTPS (DoH), DNS-over-TLS (DoT), WireGuard proxy routing, tracker & malware blocking, and fine-grained network rule controls.",
+      "verified": true,
+      "min_sdk": 23,
+      "target_sdk": 34,
+      "cert_sha256": "82:A4:A7:F9:6B:C9:46:D8:1A:E6:E0:9E:C8:42:07:07:95:90:5B:74:B3:17:84:64:1C:2B:64:3F:8F:D5:16:B3",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.celzero.bravedns/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "Celzero Team",
+          "role": "Core Maintainers",
+          "url": "https://github.com/celzero"
+        }
+      ],
+      "downloads": 26500,
+      "rating": 4.8,
+      "rating_count": 1920,
+      "channels": {
+        "stable": {
+          "version_code": 70,
+          "version_name": "0.5.8",
+          "size_bytes": 72146804,
+          "sha256": "f8b78513e91bc47066ccf51f5bd742274abb3970388d5e7a7ebcae9c9cd9c9d2",
+          "apk_url": "https://github.com/celzero/rethink-app/releases/download/v0.5.8/rethink-70.apk",
+          "virustotal_url": "",
+          "changelog": "Reduced battery usage to 2-3%, Tasker/Macrodroid WireGuard intents, captive portal bypass, and packet capture auto-truncation.",
+          "released_at": "2024-07-15T00:00:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": []
+    },
+    {
+      "package_id": "me.zhanghai.android.files",
+      "name": "Material Files",
+      "developer": "Hai Zhang",
+      "category": "Tools",
+      "description": "Open-source Material Design file manager with root inspection, Linux filesystem access, archive extraction (zip, tar, 7z), SMB/FTP/WebDAV network shares, and multi-window DeX drag & drop.",
+      "verified": true,
+      "min_sdk": 21,
+      "target_sdk": 34,
+      "cert_sha256": "55:8F:7C:1E:83:8B:27:0B:C7:E2:B0:10:97:54:33:F3:A8:12:35:E1:98:81:67:8B:2B:BE:4A:23:44:A7:28:B1",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.MANAGE_EXTERNAL_STORAGE"
+      ],
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/icon.webp",
+      "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/banner.webp",
+      "screenshots": [
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/s1.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/s2.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/s3.webp",
+        "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/me.zhanghai.android.files/s4.webp"
+      ],
+      "trailer_url": "",
+      "credits": [
+        {
+          "name": "Hai Zhang",
+          "role": "Creator & Lead Developer",
+          "url": "https://github.com/zhanghai"
+        }
+      ],
+      "downloads": 21400,
+      "rating": 4.9,
+      "rating_count": 1670,
+      "channels": {
+        "stable": {
+          "version_code": 75,
+          "version_name": "1.7.5",
+          "size_bytes": 13747821,
+          "sha256": "f2e7f028fbddf51d7ee90ace27a1ae4b247511e12514d1def6c9e52435feac40",
+          "apk_url": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-universal.apk",
+          "virustotal_url": "",
+          "changelog": "Updated SAF integration, archive extraction fixes, Android 14 photo picker support, and performance optimizations.",
+          "released_at": "2024-06-18T00:00:00Z",
+          "abi": "universal",
+          "variants": []
+        }
+      },
+      "older_versions": []
     }
   ]
 }
