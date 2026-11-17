@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T09:26:18Z",
+  "last_updated": "2026-11-17T10:29:47Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -502,7 +502,7 @@
         "com.auramemories.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
         "android.permission.READ_PHONE_STATE"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=4",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=5",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp",
       "screenshots": [
         "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s1.webp",
@@ -522,6 +522,19 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 5,
+          "version_name": "1.3.0",
+          "size_bytes": 319652100,
+          "sha256": "6bec819863c9a818e93060724dbabda6121d7120425025b592e41b46066c3702",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.auramemories.app-v5/app-release.apk",
+          "changelog": "v1.3.0 update: Deep pro editor integration with jub0t/concat (open-source CapCut alternative for multi-track timeline video editing) and T8RIN/ImageToolbox (advanced image manipulation powerhouse with 300+ filters, layer editing & background removal), featuring 1-tap FileProvider launch, external app detection, auto-indexing on save, and unified studio hub showcase cards.",
+          "released_at": "2026-11-17T10:29:45Z",
+          "abi": "universal",
+          "github_asset_id": 758560325
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 4,
           "version_name": "1.2.0",
           "size_bytes": 319618616,
@@ -531,9 +544,7 @@
           "released_at": "2026-11-17T09:26:16Z",
           "abi": "universal",
           "github_asset_id": 758406073
-        }
-      },
-      "older_versions": [
+        },
         {
           "version_code": 3,
           "version_name": "1.1.0",
