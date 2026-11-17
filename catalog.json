@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T14:32:10Z",
+  "last_updated": "2026-11-17T09:26:18Z",
   "store_self_update": {
     "version_code": 10,
     "version_name": "1.0.9",
@@ -502,7 +502,7 @@
         "com.auramemories.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
         "android.permission.READ_PHONE_STATE"
       ],
-      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=3",
+      "icon_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/icon.webp?v=4",
       "banner_url": "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/banner.webp",
       "screenshots": [
         "https://cdn.jsdelivr.net/gh/talha2223/rh-store-data@main/assets/com.auramemories.app/s1.webp",
@@ -522,6 +522,19 @@
       "rating_count": 0,
       "channels": {
         "stable": {
+          "version_code": 4,
+          "version_name": "1.2.0",
+          "size_bytes": 319618616,
+          "sha256": "09788fdbb312ea5dee99d81ec02f6a21291ae9c8533c9dbf8de3dc5fbe784f4e",
+          "apk_url": "https://github.com/talha2223/rh-store-data/releases/download/com.auramemories.app-v4/app-release.apk",
+          "changelog": "v1.2.0 flagship update: Deep-learning AI Person Identifier powered by 112×112 MobileFaceNet with intra-photo separation & 1-tap profile split, On-Device AI Magic Eraser with content-aware inpainting, Cinematic Aura Highlights Video Reels with Ken Burns pan/zoom & harmonic audio, Smart Blur & Screenshot Storage Cleaner with 1-tap batch trash, EXIF & GPS Geotag Editor with interactive map pin & presets, and Categories & Albums explore hub with full-text OCR search.",
+          "released_at": "2026-11-17T09:26:16Z",
+          "abi": "universal",
+          "github_asset_id": 758406073
+        }
+      },
+      "older_versions": [
+        {
           "version_code": 3,
           "version_name": "1.1.0",
           "size_bytes": 311451238,
@@ -531,9 +544,7 @@
           "released_at": "2026-11-16T14:32:08Z",
           "abi": "universal",
           "github_asset_id": 755162710
-        }
-      },
-      "older_versions": [
+        },
         {
           "version_code": 2,
           "version_name": "1.0.1",
